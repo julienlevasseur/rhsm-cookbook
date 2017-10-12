@@ -1,11 +1,13 @@
 name 'rhsm'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Julien Levasseur'
+maintainer_email 'contact@julienlevasseur.ca'
 license 'All Rights Reserved'
-description 'Installs/Configures rhsm'
-long_description 'Installs/Configures rhsm'
+description 'Wrap redhat_subscription_manager to manager RedHat Satellite register/unregister'
+long_description 'Wrap redhat_subscription_manager to manager RedHat Satellite register/unregister'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
+
+depends 'redhat_subscription_manager'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

@@ -1,4 +1,4 @@
-# Inspec test for recipe rhsm::default
+# Inspec test for recipe rhsm::unregister
 
 # The Inspec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/
